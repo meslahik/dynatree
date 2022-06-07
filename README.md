@@ -1,2 +1,2 @@
-# dynatree
-A scalable and highly available B+tree over partitioned state machine replication
+# DynaTree
+DynaTree is a scalable and highly available B+tree over partitioned state machine replication. DynaTree employs the partitioned state machine replication model that partitions the application state and replicates each partition. Tree operations are atomically multicast to the partitions involved in the request, and then executed. Atomic multicast ensures that requests are properly ordered across partitions to ensure that replicas end up in the same state after execution.
