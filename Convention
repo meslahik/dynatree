@@ -1,0 +1,4 @@
+COMMAND:
+    CREATE: [CommandType.CREATE, (1), (2)]
+    (1): Set of prObject to create. Those objects could have or have not id
+    (2): Set of objects require to create object in (1)
